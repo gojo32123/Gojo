@@ -444,7 +444,7 @@ class PokemonHuntingEngine:
         if not self.automation_orchestrator.is_automation_active:
             return
 
-        if ('shiny' in event.raw_text.lower() and
+        if ('✨' in event.raw_text.lower() and
                 event.raw_text.lower().endswith('found!')):
             self.activity_monitor.record_activity(activity_type=ActivityType.RESPONSE_RECEIVED)
             warning = 'Shiny Pokèmon found! Automated hunting deactivated.'
@@ -486,7 +486,7 @@ class PokemonHuntingEngine:
 
             if wild_pokemon_hp_match:
                 wild_max_hp = int(wild_pokemon_hp_match.group(2))
-                if wild_max_hp <= 90:
+                if wild_max_hp <= 111:
                     logger.debug(f"{pok_name} is low level (HP: {wild_max_hp}), using Poke Balls directly.")
                     await asyncio.sleep(constants.COOLDOWN())
                     try:
@@ -519,7 +519,7 @@ class PokemonHuntingEngine:
                     wild_current_hp = int(wild_pokemon_hp_match.group(1))
                     wild_health_percentage = (wild_current_hp / wild_max_hp) * 100
 
-                    if wild_current_hp > 90:
+                    if wild_current_hp > 111:
                         await asyncio.sleep(1)
                         try:
                         # Click the first option 5 times
@@ -530,7 +530,7 @@ class PokemonHuntingEngine:
                             if not isinstance(e, MessageIdInvalidError):  # Suppress MessageIdInvalidError
                                 logger.warning(f'Failed to click first option for high-level {pok_name}: {e}')
 
-                    if wild_current_hp <= 90:
+                    if wild_current_hp <= 111:
                         await asyncio.sleep(1)
                         try:
                             # Click "Poke Balls" 5 times
