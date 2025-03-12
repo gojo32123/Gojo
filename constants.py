@@ -47,7 +47,7 @@ TEMP_DOWNLOAD_PATH = "./downloads"
 # Owner and Bot Information
 OWNER_NAME = "Amit"
 BOT_VERSION = "69.2"
-ALIVE_IMG_PATH = "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22%F0%9F%92%96%20(%40twaniimals)%20on%20X.jpeg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-03-11T11%3A16%3A09.983Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F02f4a853e88c46b7%2F%25F0%259F%2592%2596%2520(%40twaniimals)%2520on%2520X.jpeg%3FExpires%3D1836386170%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DJh0rGg~KGc9CV-WD08pbvHiuZK79Tm1epzvX50QsDebxm23yxvRKfdcF0c2cHg2FT3nopy7edKAds4-Z0YWpVhjhGuvJYvkO~AANfoN79zul-jMwqlOhB3I4NFGHiSN279ztvHYj4SbsnNB2afiAsKgv8qbBtBCkTDKgThiUcd4EtotUb184hwsWOR0cagEIuEUzEnF8QyWWk5Q9j6hJ4d4vObRLAqjotkboC0eYuPmNlV2Nu-qW7SMjY-xQKP~5CIGE~yekQYB6Shzt5fzF4SuvQ43gT2ua-lKTMMVDzxjKI0SWLOLLAv36BayaTIF~Etbvbi9QPeRlEMaOMlhnaA__%22%7D"
+ALIVE_IMG_PATH = "https://envs.sh/Wl0.mp4"
 
 # Commands
 PING_COMMAND_REGEX = r'^\.ping$'
