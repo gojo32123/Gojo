@@ -40,6 +40,7 @@ REPEAT_BALL = set([
         "Virizion", "Xerneas", "Yveltal", "Zacian", "Zamazenta", "Zapdos", "Zekrom", "Zeraora", 
         "Zygarde", "Arceus", "Darkrai", "Empoleon", "Goodra", "Lopunny", "Thundurus"
 ])
+
 TEMP_DOWNLOAD_PATH = "./downloads"
 
 # Owner and Bot Information
