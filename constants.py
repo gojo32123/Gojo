@@ -38,7 +38,8 @@ REPEAT_BALL = set([
         "Rillaboom", "Rotom", "Sceptile", "Shaymin", "Spectrier", "Starmie", "Slakoth",
         "Terrakion", "Togekiss", "Turtonator", "Ursaring", "Venusaur", "Victini", "Vigoroth",
         "Virizion", "Xerneas", "Yveltal", "Zacian", "Zamazenta", "Zapdos", "Zekrom", "Zeraora", 
-        "Zygarde", "Arceus", "Darkrai", "Empoleon", "Goodra", "Lopunny", "Thundurus"
+        "Zygarde", "Arceus", "Darkrai", "Empoleon", "Goodra", "Lopunny",
+        "Thundurus", "✨"
 ])
 
 TEMP_DOWNLOAD_PATH = "./downloads"
