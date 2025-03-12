@@ -47,7 +47,7 @@ TEMP_DOWNLOAD_PATH = "./downloads"
 # Owner and Bot Information
 OWNER_NAME = "Amit"
 BOT_VERSION = "69.2"
-ALIVE_IMG_PATH = "https://i.ibb.co/bgPHGZLb/382f72d590b0530be130caf240a9717c.jpg"
+ALIVE_IMG_PATH = "https://ibb.co/Cp6BB0tv"
 
 # Commands
 PING_COMMAND_REGEX = r'^\.ping$'
