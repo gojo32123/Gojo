@@ -40,19 +40,10 @@ REPEAT_BALL = set([
         "Virizion", "Xerneas", "Yveltal", "Zacian", "Zamazenta", "Zapdos", "Zekrom", "Zeraora", 
         "Zygarde", "Arceus", "Darkrai", "Empoleon", "Goodra", "Lopunny", "Thundurus"
 ])
-
-# Hunting Team
-POKEMON_TEAM = [
-    "Applin", "Abomasnow", "Golurk",
-    "Gardevoir", "Arceus", "Xerneas"
-]   # Add your preferred Pokémon for hunting here
-
-
 TEMP_DOWNLOAD_PATH = "./downloads"
 
-
 # Owner and Bot Information
-OWNER_NAME = "Enryu"
+OWNER_NAME = "Amit"
 BOT_VERSION = "69.2"
 ALIVE_IMG_PATH = "https://i.ibb.co/bgPHGZLb/382f72d590b0530be130caf240a9717c.jpg"
 
@@ -72,8 +63,8 @@ UNAFK_COMMAND_REGEX = r'^\.unafk$'  # Matches `.unafk`
 # Timing and Limits
 
 COOLDOWN = lambda: random.randint(2, 3)  # Random cooldown between 3 and 6 seconds
-PERIODICALLY_GUESS_SECONDS = 120  # Guess cooldown
-PERIODICALLY_HUNT_SECONDS = 300  # Hunt cooldown (5 minutes)
+PERIODICALLY_GUESS_SECONDS = 20  # Guess cooldown
+PERIODICALLY_HUNT_SECONDS = 160  # Hunt cooldown (5 minutes)
 HEXA_BOT_ID = 572621020  # ID of the Hexa bot
 
 # Auto-Battle Constants
