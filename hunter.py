@@ -461,7 +461,7 @@ class PokemonHuntingEngine:
                         logger.exception(f"Unexpected error clicking button for {pok_name}: {e}")
             else:
               self.activity_monitor.record_activity(activity_type=ActivityType.SKIPPED_ENCOUNTER)
-                await self._transmit_hunt_command()
+              await self._transmit_hunt_command()
 
     
     async def battlefirst(self, event):
@@ -469,7 +469,7 @@ class PokemonHuntingEngine:
         if substring in event.raw_text and self.automation_orchestrator.is_automation_active:
             wild_pokemon_name_match = regex.search(r"Wild ([^\[]+?)\s*\[.*\]\nLv\. \d+\s+•\s+HP \d+/\d+", event.raw_text)
           
-          if wild_pokemon_name_match:
+        if wild_pokemon_name_match:
             pok_name = wild_pokemon_name_match.group(1).strip()
             
             wild_pokemon_hp_match = regex.search(r"Wild .* \[.*\]\nLv\. \d+\s+•\s+HP (\d+)/(\d+)", event.raw_text)
