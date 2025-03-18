@@ -47,7 +47,7 @@ TEMP_DOWNLOAD_PATH = "./downloads"
 # Owner and Bot Information
 OWNER_NAME = "Amit"
 BOT_VERSION = "69.2"
-ALIVE_IMG_PATH = "https://envs.sh/I5I.mp4"
+ALIVE_IMG_PATH = "https://envs.sh/INk.mp4"
 
 # Commands
 PING_COMMAND_REGEX = r'^\.ping$'
