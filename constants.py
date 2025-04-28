@@ -30,15 +30,15 @@ REPEAT_BALL = set([
         "Abomasnow", "Aerodactyl", "Ampharos", "Beldum", "Beedrill", "Blacephalon", 
         "Blastoise", "Cobalion", "Cosmoem", "Cosmog", "Delphox", "Deoxys", "Dhelmise", 
         "Dialga", "Drakloak", "Duraludon", "Darmanitan", "Eternatus", "Gallade", 
-        "Gardevoir", "Genesect", "Giratina", "Glastrier", "Golisopod", "Golurk", "Greninja", 
+        "Gardevoir", "Genesect", "Giratina", "Glastrier", "Greninja", 
         "Groudon", "Gyarados", "Haxorus", "Ho-oh", "Hoopa", "Jellicent", "Jirachi", "Jolteon", 
         "Kartana", "Keldeo", "Kubfu", "Kyogre", "Kyurem", "Landorus", "Lapras", "Lugia", 
         "Ludicolo", "Magearna", "Marshadow", "Meloetta", "Metang", "Mewtwo", "Necrozma", 
         "Palkia", "Pheromosa", "Charizard", "Rayquaza", "Regieleki", "Regigigas", "Reshiram", 
-        "Rillaboom", "Rotom", "Sceptile", "Shaymin", "Spectrier", "Starmie", "Slakoth",
-        "Terrakion", "Togekiss", "Turtonator", "Ursaring", "Venusaur", "Victini", "Vigoroth",
+        "Rotom", "Sceptile", "Shaymin", "Spectrier", "Starmie",
+        "Terrakion", "Togekiss", "Turtonator", "Venusaur", "Victini",
         "Virizion", "Xerneas", "Yveltal", "Zacian", "Zamazenta", "Zapdos", "Zekrom", "Zeraora", 
-        "Zygarde", "Arceus", "Darkrai", "Empoleon", "Goodra", "Lopunny",
+        "Zygarde", "Arceus", "Darkrai",
         "Thundurus", "✨"
 ])
 
